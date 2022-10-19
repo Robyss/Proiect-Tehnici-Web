@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <title>SnowBoardrZ</title>
+    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <title>SnowBoardrZ</title>
+    <!-- meta tags -->
     <meta name="author" content="Robert Sorete"> 
-    
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="A platform for passionate snowboarders.">
+    <meta name="keywords" content=" snowboard, snowboarding, snowboarding gear, 
+                                    winter sports, snowboard guide, skiing, mountain, 
+                                    snow, slope, freestyle, powder, snowboard freeride,
+                                    SnowBoardrZ">
+    <!-- styles -->
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/ico/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 
 </head>
 <body>
     <header>
-        <h1>SnowBoardrZ</h1>
-        <nav class="navbar">
+        <!-- nav -->
+        <nav class="nav">
+            <h1 class="title">SnowBoardrZ</h1>
             <ul class="navbar-list">
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="#">Explore</a></li>
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">Shop</a></li>
-                <li><a href="#">Video</a></li>
+                <li><a href="#">Videos</a></li>
                 <li><a href="#">How To</a></li>
             </ul>
         </nav>
+        <!-- end of nav -->
     </header>
 
     <main>
+        <video autoplay muted loop id="myVideo">
+            <source src="resources/videos/Snowboarding - 786.mp4" type="video/mp4">
+        </video>
+
+
         <section id="about-us">
             <section id="what-is-snowboardrz">
                 <h2>What is SnowBoardrZ?</h2>
@@ -97,6 +114,23 @@
             <li>TikTok</li>
         </ul>
         <a href="#">Link Top</a>
+
+        <!-- contact -->
+        <section class="section contact">
+            <div class="contact-center">
+                <article class="contact-info">
+                    <a href="tel:0730081605">Call Us</a>
+                    <a href="https://wa.me/730081605" target="_blank">Leave a message</a>
+                    <a href="mailto:victordavid2506@gmail.com">Send an e-mail</a>
+                    <a href="https://goo.gl/maps/DmRvEzVhuAUhQu7w7" target="_blank">Find us Here</a>
+                </article>
+            </div>
+        </section>
+        <!-- end of contact -->
+        <small class="copyright">
+            Copyright &copy; SnowBoardrZ. All rights reserved.
+            Site created on <time datetime="2022-10-16">October 16th 2022</time>
+        </small>
         
     </footer>
     
