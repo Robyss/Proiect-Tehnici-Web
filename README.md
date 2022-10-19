@@ -8,4 +8,4 @@ Salut, in acest episod veti vedea ce cacaturi face aici Robert si cum nu se pric
 
 Ei bine nu inteleg de ce inca mai esti aici si citesti prostia asta de readme ca nu ai nevoie sa o citesti pentru a intelege ce e cu repository-ul acesta. Asa ca **VALEA!**
 
-Dar tu tot citesti asta... sunt mandru de tine ca admiti ca esti prea prost si ai nevoie de un readme pentru acest repo ¯\\_(ツ)_/¯.
+Dar tu tot citesti asta... sunt mandru de tine ca admiti ca esti prea prost si ai nevoie de un readme pentru acest repo. <br/> ¯\\_(ツ)_/¯
