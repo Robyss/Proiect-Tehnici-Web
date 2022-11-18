@@ -7,7 +7,7 @@
 Atentie - unele cerinte au enunt diferit pentru fiecare student (si sunt marcate printr-un link). Trebuie sa va inregistrati pe site pentru a le vedea.
 
 Daca stilizarea dintr-o cerinta nu va place, puteti sa imi cereti o alta varianta (imi scrieti pe chat). Culorile din imaginile si videoclipurile date ca exemplu nu trebuie.
-[Link task-uri]([Cerinte custom](http://irinaciocan.ro/tehnici_web/cerinte_custom_cti.php))
+[Link task-uri](http://irinaciocan.ro/tehnici_web/cerinte_custom_cti.php)
 
 - [ ] 1. Task schema cromatica.
 - [ ] 2. Task layout.
