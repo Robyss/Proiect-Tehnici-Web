@@ -40,17 +40,15 @@
 
 }
 
-#top {
+/* ### Link Top ### */
+.top {
     display: block;
     position: fixed;
     bottom: 2%;
     right: 2%;
-
     width: 80px;
     height: 80px;
-    background-color: transparent;
     opacity: 0.4;
-
     transition: all 0.7s linear;
 }
 
@@ -71,27 +69,25 @@
     transform-origin: center;
     height: 50px;
     width: 50px;
-    box-shadow: -5px 5px 0 0 gray, 5px -5px 0 0 gray;
+    box-shadow: -5px 5px  gray, 5px -5px gray;
     border-radius: 50%;
     rotate: 45deg;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .brackets .arrow {
     rotate: -45deg;
-
 }
 
-#top:hover {
+.top:hover {
     opacity: 1;
 }
 
-#top:hover .arrow {
+.top:hover .arrow {
     border-bottom: 16px solid darkcyan;
     transform: translateY(-75%)
 }
+/* ######### */
 
