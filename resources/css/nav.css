@@ -29,7 +29,6 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-
     margin: 0;
     padding: 0;
 
@@ -53,7 +52,6 @@ nav {
     background-color: var(--culoare-meniu);
     text-transform: uppercase;
     letter-spacing: 0.1em;
-
 }
 
 ul.meniu {
@@ -65,7 +63,6 @@ ul.meniu {
 
     margin: 0;
     padding: 0;
-
 
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -79,21 +76,22 @@ ul.meniu>li {
     vertical-align: middle;
     width:var(--latime-buton);
     text-align: center;
+
 }
 
 ul.meniu li{
     cursor:pointer;
     background-color: var(--culoare-meniu);
-    transition:all 0.7s linear;
-    margin: 0 10px;
-}
 
-ul.meniu li:hover{
-    background-color: var(--culoare-meniu-selectat);
 }
 
 ul.meniu>li:hover{
     overflow: visible;
+}
+
+ul.meniu>li>a:hover {
+    box-shadow: 10px 10px 5px #d28e12 inset, -10px -10px 5px #d28e12 inset;
+    transition:all 0.7s linear;
 }
 
 ul.meniu a{
@@ -119,9 +117,23 @@ ul.meniu ul{
 
 ul.meniu ul li{
     height: var(--inaltime-meniu);
-
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
+
+ul.meniu ul li a {
+    overflow: hidden;
+}
+
+.sageata {
+    display: inline-block;
+    transform: translateX(-100px);
+    transition: all 1.5s cubic-bezier(0, 1.09, 1, 0.96);
+}
+
+ul.meniu ul li a:hover .sageata {
+    transform: translateX(0px);
+}
+
 
 ul.meniu li:hover ul{
     animation-name: animatie_submeniu;
@@ -141,18 +153,16 @@ ul.meniu li:hover ul{
     }
 }
 
+/*### Ecran Mediu ###*/
 
+@media screen and (max-width: 1250px) {
+    #text-home{
+        display: none;
+    }
 
-
-button {
-    size: 30px;
+    body {
+        font-size: 14px;
+    }
 }
-
-
-
-
-
-
-
 
 
