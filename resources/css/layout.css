@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+.grid-pagina {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:    "z-about-us z-about-us z-about-us z-about-us"
+                            "z-3 z-shop z-shop z-4"
+                            "z-5 z-shop z-shop z-4"
+                            "z-5 z-6 z-6 z-7"
+                            "z-8 z-8 z-8 z-8"
+                            ;
+    margin: 0 4rem;
+
+}
+
+.grid-pagina > * {
+    border: 2px solid black;
+}
+
+
+#about-us {
+    grid-area: z-about-us;
+}
+
+#shop {
+    grid-area: z-shop;
+}
+
+#how-to {
+    grid-area: z-8;
+
+}
+#reviews {
+    grid-area:z-4;
+
+}
+
+
+#top {
+    display: block;
+    position: fixed;
+    float: right;
+
+    bottom: 2%;
+    right: 2%;
+
+    opacity: 0.5;
+
+    max-width: 60px;
+    min-height: 48px;
+    width: 100%;
+    font-size: 12px;
+    background-color: rgb(47, 45, 45);
+    padding: 1px;
+    border-radius: 4px;
+
+    transition: all 0.3s linear ;
+}
+
+#top:hover {
+    opacity: 1;
+}
+
+.arrow:hover {
+    transform: translateY(-100%);
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    border-bottom: 2em solid darkcyan;
+    transition: all 0.7s linear;
+
+}
+
+.moon {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.brackets {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    background-color: blueviolet;
+    transform-origin: center;
+    height: 100px;
+    width: 100px;
+    box-shadow: -8px 8px 0 0 white, 8px -8px 0 0 white;
+    border-radius: 50%;
+    rotate: 45deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brackets .arrow {
+    rotate: -45deg;
+}
