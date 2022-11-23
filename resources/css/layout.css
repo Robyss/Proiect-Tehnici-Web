@@ -1,6 +1,16 @@
 :root {
-
-
+    /* Color Palette */
+    --primary-color: #0b2027;
+    /*--primary-color: #265450;*/
+    --secondary-color: #b4c8c3;
+    /*--tertiary-color: ;*/
+    --quaternary-color: #657187;
+    --quinary-color: #a8ded6;
+    --senary-color: #e8ecf2;
+    /*--septenary-color:;*/
+    --octonary-color: #40798C;
+    --silver: #bbbcc5;
+    --light-green: rgb(192, 235, 155);
 }
 
 * {
@@ -8,43 +18,117 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
+body {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--silver);
+}
+footer .fa {
+    font-size: 20px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 1rem;
+}
 
 
 .grid-pagina {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-areas:    "z-about-us z-about-us z-about-us z-about-us"
-                            "z-3 z-shop z-shop z-4"
-                            "z-5 z-shop z-shop z-4"
+                            "z-3 z-2 z-2 z-4"
+                            "z-5 z-2 z-2 z-4"
                             "z-5 z-6 z-6 z-7"
                             "z-8 z-8 z-8 z-8"
+                            "z-9 z-9 z-9 z-9"
+                            "z-10 z-10 z-10 z-10"
                             ;
     margin: 0 4rem;
-
+    background-color: var(--senary-color);
 }
 
 .grid-pagina > * {
     border: 2px solid black;
 }
 
-
 #about-us {
     grid-area: z-about-us;
 }
-
-#shop {
-    grid-area: z-shop;
+#table {
+    grid-area: z-2;
 }
-
-#how-to {
+#calendar {
+    grid-area: z-3;
+}
+#anunturi {
+    grid-area: z-4;
+}
+#lista-users {
+    grid-area: z-5;
+}
+#users-stats {
+    grid-area: z-6;
+}
+#server-data {
     grid-area: z-7;
-
 }
+#shop {
+    grid-area: z-8;
+}
+
 #reviews {
-    grid-area:z-4;
+    grid-area: z-9;
+
+}
+#how-to {
+    grid-area: z-10;
 
 }
 
+/* ### Table ### */
+
+table.snowboard-table img {
+    width: 100%;
+}
+
+div.size-chart-table-wrap, div.snowboard-table-wrap{
+    overflow-x: auto;
+    margin-top: 2em;
+}
+
+table.size-chart-table, table.snowboard-table {
+    caption-side: bottom;
+}
+thead {
+    background-color: var(--silver);
+}
+
+tbody tr:nth-child(even) {
+    /*background-color: ;*/
+}
+
+td {
+    text-align: center;
+    /*padding: 0 1em;*/
+}
+
+td:nth-child(even) {
+    border-right: 2px solid var(--octonary-color);
+}
+td:nth-child(odd) {
+    border-right: 2px solid var(--light-green);
+}
+
+tbody tr:hover {
+    box-shadow: 10px 10px 5px var(--octonary-color) inset, -10px -10px 5px var(--octonary-color) inset;
+    transition: all .5s ease;
+}
 
 
 /* ### Link Top ### */
@@ -98,3 +182,16 @@
 }
 /* ######### */
 
+
+@media screen and (max-width: 1250px) {
+    .grid-pagina {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .grid-pagina {
+        display: block;
+    }
+}

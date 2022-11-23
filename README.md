@@ -9,12 +9,13 @@ Atentie - unele cerinte au enunt diferit pentru fiecare student (si sunt marcate
 Daca stilizarea dintr-o cerinta nu va place, puteti sa imi cereti o alta varianta (imi scrieti pe chat). Culorile din imaginile si videoclipurile date ca exemplu nu trebuie.
 [Link task-uri](http://irinaciocan.ro/tehnici_web/cerinte_custom_cti.php)
 
-- [ ] 1. Task schema cromatica.
+- [X] 1. Task schema cromatica.
 - [ ] 2. Task layout.
-- [ ] 3. Task iconuri și font extern. Folosiți in prima pagină a site-ului un font extern: Google API. Folosiți în pagină, într-un loc relevant un icon static și unul animat (separat de eventuale alte taskuri care cer așa ceva) din colecția Font Awesome.
-- [ ] 4. Task label.
-- [ ] 5. Task taburi iframe.
-- [ ] 6. Link top.
+- [X] 3. Task meniu. (mai trebuie animatia de start)
+- [ ] 4. Task iconuri și font extern. Folosiți in prima pagină a site-ului un font extern: Google API. Folosiți în pagină, într-un loc relevant un icon static și unul animat (separat de eventuale alte taskuri care cer așa ceva) din colecția Font Awesome.
+- [ ] 5. Task label.
+- [ ] 6. Task taburi iframe.
+- [X] 7. Link top.
 
 Bonusuri:
 

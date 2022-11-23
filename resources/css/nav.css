@@ -5,7 +5,6 @@
 
     --inaltime-nav: 60px;
 
-
     /* Color Palette */
     --primary-color: #0b2027;
     /*--primary-color: #265450;*/
@@ -14,7 +13,7 @@
     --quaternary-color: #657187;
     --quinary-color: #a8ded6;
     --senary-color: #fbfcfc;
-    --septenary-color: #e8ecf2;
+    --senary-color: #e8ecf2;
 }
 
 .title {
@@ -23,7 +22,7 @@
     align-items: center;
 
     height: var(--inaltime-nav);
-    color: var(--septenary-color);
+    color: var(--senary-color);
     background-color: var(--primary-color);
 
     font-size: 1.8rem;
@@ -60,10 +59,8 @@ ul.meniu {
     align-items: center;
     height: var(--inaltime-nav);
     list-style-type: none;
-
     margin: 0;
     padding: 0;
-
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -90,7 +87,7 @@ ul.meniu>li:hover{
 }
 
 ul.meniu>li>a:hover {
-    box-shadow: 10px 10px 5px #d28e12 inset, -10px -10px 5px #d28e12 inset;
+    box-shadow: 10px 10px 10px #d28e12 inset, -10px -10px 10px #d28e12 inset;
     transition:all 0.7s linear;
 }
 
@@ -160,8 +157,10 @@ ul.meniu li:hover ul{
         display: none;
     }
 
-    body {
+    nav {
         font-size: 14px;
+        transition: all .7s linear;
+
     }
 }
 

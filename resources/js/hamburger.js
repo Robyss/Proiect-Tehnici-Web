@@ -14,4 +14,13 @@ hamburger.addEventListener("click", function () {
     open = !open;
 });
 
+let screen = document.querySelector("main")
+
+screen.addEventListener("click", function() {
+
+    hamburger.classList.remove("active");
+    hamburger.classList.add("not-active");
+    open = !open;
+
+});
 
