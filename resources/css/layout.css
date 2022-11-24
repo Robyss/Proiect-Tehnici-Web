@@ -141,8 +141,7 @@ tbody tr:hover {
 .best-of-wrapper {
     position: relative;
 }
-.best-of-wrapper iframe {
-    width: 100%;
+.best-of-wrapper iframe {    width: 100%;
     height: 20rem;
     margin: 0 auto;
     border: 6px solid var(--octonary-color);
