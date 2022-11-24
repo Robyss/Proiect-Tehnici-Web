@@ -19,7 +19,7 @@ Etapa 1 (punctaj recomandat 0.5)
 - [x] 7. În cadrul secțiunilor folosiți minim 2 taguri dintre următoare taguri de grupare: p, ol, ul, blockquote, dl
 - [x] 8. Adăugați în pagină o imagine cu descriere, folosind figure și figcaption. Pe ecran mic (mobil) trebuie să se încarce o variantă mai redusă în dimensiune (bytes) a imaginii, pe tabletă o variantă medie, iar pe ecran mare varianta cea mai mare a imaginii. Folosiți un editor grafic pentru cropping și redimensionare pentru a obține cele 3 variante de imagini. 
 - [x] 9. Textul trebuie să conțină toate cuvintele cheie identificate pentru pagina curentă. Puteți găsi mai multe sintagme cheie pe care le puteți folosi, cu https://www.wordtracker.com/  sau https://app.neilpatel.com/en/ubersuggest/keyword_ideas Acestea trebuie să apară de mai multe ori în pagină, în taguri relevante.
-- [ ] 10. În cadrul textului îndepliniți 3 dintre cerințele de mai jos, la alegere:
+- [x] 10. În cadrul textului îndepliniți 3 dintre cerințele de mai jos, la alegere:
     - **marcați cuvintele și sintagmele cheie cu ajutorul tagului b**
     - marcați textul idiomatic (termeni științifici, în altă limbă, tehnici, de jargon, etc) cu tagul i
     - marcați textul de atenționare cu strong
