@@ -10,11 +10,11 @@ Daca stilizarea dintr-o cerinta nu va place, puteti sa imi cereti o alta variant
 [Link task-uri](http://irinaciocan.ro/tehnici_web/cerinte_custom_cti.php)
 
 - [X] 1. Task schema cromatica.
-- [ ] 2. Task layout.
+- [x] 2. Task layout.
 - [X] 3. Task meniu. (mai trebuie animatia de start)
-- [ ] 4. Task iconuri și font extern. Folosiți in prima pagină a site-ului un font extern: Google API. Folosiți în pagină, într-un loc relevant un icon static și unul animat (separat de eventuale alte taskuri care cer așa ceva) din colecția Font Awesome.
-- [ ] 5. Task label.
-- [ ] 6. Task taburi iframe.
+- [x] 4. Task iconuri și font extern. Folosiți in prima pagină a site-ului un font extern: Google API. Folosiți în pagină, într-un loc relevant un icon static și unul animat (separat de eventuale alte taskuri care cer așa ceva) din colecția Font Awesome.
+- [x] 5. Task label.
+- [x] 6. Task taburi iframe.
 - [X] 7. Link top.
 
 Bonusuri:
@@ -59,24 +59,24 @@ Site-uri folosite:
 
 - [x] 8. Adăugați în pagină o imagine cu descriere, folosind figure și figcaption. Pe ecran mic (mobil) trebuie să se încarce o variantă mai redusă în dimensiune (bytes) a imaginii, pe tabletă o variantă medie, iar pe ecran mare varianta cea mai mare a imaginii. Folosiți un editor grafic pentru cropping și redimensionare pentru a obține cele 3 variante de imagini. 
 
-- [ ] 9. Textul trebuie să conțină toate cuvintele cheie identificate pentru pagina curentă. Puteți găsi mai multe sintagme cheie pe care le puteți folosi, cu https://www.wordtracker.com/  sau https://app.neilpatel.com/en/ubersuggest/keyword_ideas Acestea trebuie să apară de mai multe ori în pagină, în taguri relevante.
+- [x] 9. Textul trebuie să conțină toate cuvintele cheie identificate pentru pagina curentă. Puteți găsi mai multe sintagme cheie pe care le puteți folosi, cu https://www.wordtracker.com/  sau https://app.neilpatel.com/en/ubersuggest/keyword_ideas Acestea trebuie să apară de mai multe ori în pagină, în taguri relevante.
 
-- [ ] 10. În cadrul textului îndepliniți 3 dintre cerințele de mai jos, la alegere:
-      - marcați cuvintele și sintagmele cheie cu ajutorul tagului b
+- [x] 10. În cadrul textului îndepliniți 3 dintre cerințele de mai jos, la alegere:
+      - **marcați cuvintele și sintagmele cheie cu ajutorul tagului b**
       - marcați textul idiomatic (termeni științifici, în altă limbă, tehnici, de jargon, etc) cu tagul i
       - marcați textul de atenționare cu strong
-      - marcați textul accentuat cu em
+      - **marcați textul accentuat cu em**
       - marcați textul șters (corectat sau care nu mai e relevant) cu tagul s și textul inserat în loc cu tagul ins
       - marcați o abreviere cu abbr și cu atributul title specificați sintagma abreviată
       - marcați un termen definit cu dfn
-      - marcați un citat cu tagul q
+      - **marcați un citat cu tagul q**
 
 - [x] 11. Creați următoarele linkuri speciale: 
       - un link extern (va fi in continutul paginii, nu in meniu, va face referire la alt site si se va deschide in fereastră nouă)
       - un link în footer către începutul paginii, minim două linkuri care se deschid într-un iframe (se poate face ca în exemplul de curs, linkuri care deschid videoclipuri relevante de pe youtube în iframe). Atentie nu e vorba de src-ul iframe-ului ce de taguri `<a>` care la click se deschid in iframe. Iframe-ul va contine in mod default una dintre resursele specificate in linkuri
       - Un link de tip download
 
-- [ ] 12. Creați în pagină mai multe zone de details și summary. Pot fi întrebări frecvente, pot fi niște oferte pentru care afișăm titlul și utilizatorul le deschide pe cele care îl interesează, pot fi secțiuni explicative etc.
+- [x] 12. Creați în pagină mai multe zone de details și summary. Pot fi întrebări frecvente, pot fi niște oferte pentru care afișăm titlul și utilizatorul le deschide pe cele care îl interesează, pot fi secțiuni explicative etc.
 
 - [x] 13. În footer se vor adăuga cu ajutorul tagului address informații de contact:
       - telefon fictiv, marcat cu tagul `<a>` si URI Scheme-ul corespunzător
