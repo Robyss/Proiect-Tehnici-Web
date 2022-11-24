@@ -9,8 +9,9 @@
     --senary-color: #e8ecf2;
     /*--septenary-color:;*/
     --octonary-color: #40798C;
+
     --silver: #bbbcc5;
-    --light-green: rgb(192, 235, 155);
+
 
     --myTransition: all .7s linear;
 }
@@ -18,6 +19,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
@@ -141,7 +143,8 @@ tbody tr:hover {
 .best-of-wrapper {
     position: relative;
 }
-.best-of-wrapper iframe {    width: 100%;
+.best-of-wrapper iframe {
+    width: 100%;
     height: 20rem;
     margin: 0 auto;
     border: 6px solid var(--octonary-color);
