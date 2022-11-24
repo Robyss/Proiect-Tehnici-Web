@@ -11,12 +11,14 @@
     --octonary-color: #40798C;
     --silver: #bbbcc5;
     --light-green: rgb(192, 235, 155);
+
+    --myTransition: all .7s linear;
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
     background-color: var(--secondary-color);
@@ -48,6 +50,7 @@ section {
                             "z-8 z-8 z-8 z-8"
                             "z-9 z-9 z-9 z-9"
                             "z-10 z-10 z-10 z-10"
+                            "z-11 z-11 z-11 z-11"
                             ;
     margin: 0 4rem;
     background-color: var(--senary-color);
@@ -81,17 +84,19 @@ section {
 #shop {
     grid-area: z-8;
 }
-
 #reviews {
     grid-area: z-9;
-
 }
 #how-to {
     grid-area: z-10;
-
+}
+#best-of {
+    grid-area: z-11;
 }
 
-/* ### Table ### */
+/*  #############
+    ### Table ###
+    ############# */
 
 table.snowboard-table img {
     width: 100%;
@@ -122,14 +127,63 @@ td:nth-child(even) {
     border-right: 2px solid var(--octonary-color);
 }
 td:nth-child(odd) {
-    border-right: 2px solid var(--light-green);
+    border-right: 2px solid var(--quinary-color);
 }
 
 tbody tr:hover {
     box-shadow: 10px 10px 5px var(--octonary-color) inset, -10px -10px 5px var(--octonary-color) inset;
-    transition: all .5s ease;
+    transition: var(--myTransition);
+}
+/* ############ */
+
+/* Best of iframe */
+
+.best-of-wrapper {
+    position: relative;
+}
+.best-of-wrapper iframe {
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+    border: 6px solid var(--octonary-color);
+}
+.best-of-links {
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.best-of-links a {
+    padding: 1rem;
+
+    border-width: 1px 1px 0 1px;
+    border-color: darkcyan;
+    border-style: solid;
+
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+    box-shadow: 4px -4px 10px -2px var(--quinary-color),
+                -4px -4px 10px -2px var(--quinary-color),
+                -4px 4px 10px -2px var(--quinary-color),
+                4px 4px 10px -2px var(--quinary-color);
+
+
+    color: var(--primary-color);
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+
+    transition: var(--myTransition);
+}
+
+.best-of-links a:hover {
+    background-color: #c2d2ec;
+}
+
+
+/* ############ */
 
 /* ### Link Top ### */
 .top {
@@ -140,7 +194,7 @@ tbody tr:hover {
     width: 80px;
     height: 80px;
     opacity: 0.4;
-    transition: all 0.7s linear;
+    transition: var(--myTransition);
 }
 
 .arrow {
@@ -149,7 +203,7 @@ tbody tr:hover {
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
     border-bottom: 16px solid gray;
-    transition: all 0.7s linear;
+    transition: var(--myTransition);
 }
 
 .brackets {
@@ -185,7 +239,19 @@ tbody tr:hover {
 
 @media screen and (max-width: 1250px) {
     .grid-pagina {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:    "z-about-us z-about-us z-about-us"
+                                "z-2 z-2 z-4"
+                                "z-7 z-5 z-6"
+                                "z-7 z-3 z-3"
+                                "z-8 z-8 z-8"
+                                "z-9 z-9 z-9"
+                                "z-10 z-10 z-10"
+                                "z-11 z-11 z-11"
+    ;
+        margin: 0 2rem;
+        background-color: var(--senary-color);
     }
 }
 
