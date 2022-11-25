@@ -2,15 +2,14 @@
 
 ## Etapa 3
 
-- [x] 
-    1. Se va crea un obiect server express care va asculta pe portul 8080. (sau alt port daca aveti deja folosit 8080)
+- [x]  1. Se va crea un obiect server express care va asculta pe portul 8080. (sau alt port daca aveti deja folosit 8080)
 - [x] 
     2. Se va folosi EJS pentru generarea (randarea) paginilor. Se va face un folder numit views în rădăcina proiectului. În el veți face un folder numit pagini (care conține paginile întregi) și altul numit fragmente (care conține părți de pagini (bucățele de cod html) ce pot fi refolosite pe mai multe pagini).
 - [x] 
     3. Din index (care va fi redenumit index.ejs) se vor decupa headerul și footerul și se vor pune în ejs-uri separate. De asemenea se va decupa partea de head care conține codul care nu se schimbă în funcție de pagină (de exemplu, tagul meta cu encodingul sau autorul, includerea faviconului, fișierelor css generale (nu specifice paginii) a scripturilor generale etc). Se va folosi funcția include() pentru a include toate aceste fragmente în pagini
 - [x] 
     4. Se va realiza (dacă nu l-ați făcut deja) un folder special cu toate resursele site-ului (în stilul exemplului de la curs în care am pus toate fișierele statice, precum imagini, fișiere de stil, videoclipuri etc în folderul "resurse"). Numele folderului îl decideți voi, însă va trebui să fie structurat, de asemenea, în subfoldere în funcție de tipul și modul de utilizarea al fișierelor. Se va defini în program acest folder ca fiind static
-- [?] 
+- [ ] 
     5. Se vor schimba căile fișierelor-resursă folosite în pagini, astfel încât să nu mai fie relative ci stil cerere către server (de exemplu, /resurse/stiluri/ceva.css în loc de, de exemplu, ../resurse/stiluri/ceva.css)
 - [x] 
     6. Prima pagină (index) trebuie să se poată accesa atât cu localhost:8080 cât și cu localhost:8080/index,  localhost:8080/home.
@@ -36,8 +35,7 @@ Daca stilizarea dintr-o cerinta nu va place, puteti sa imi cereti o alta variant
 imaginile si videoclipurile date ca exemplu nu trebuie.
 [Link task-uri](http://irinaciocan.ro/tehnici_web/cerinte_custom_cti.php)
 
-- [X] 
-    1. Task schema cromatica.
+- [X] 1. Task schema cromatica.
 - [x] 
     2. Task layout.
 - [X] 
@@ -85,10 +83,9 @@ Site-uri folosite:
 
 **Etapa 1 (punctaj recomandat 0.5)**
 
-- [x] 
-    1. Creați un folder al proiectului care va cuprinde toate fisierele necesare site-ului vostru. Creați în el un
-       fisier numit index.html. Deschideți acest fișier cu un editor de text care marchează sintaxa. Adăugați în fișier
-       doctype și setați limba documentului în tagul html
+- [x] 1. Creați un folder al proiectului care va cuprinde toate fisierele necesare site-ului vostru. Creați în el un
+   fisier numit index.html. Deschideți acest fișier cu un editor de text care marchează sintaxa. Adăugați în fișier
+   doctype și setați limba documentului în tagul html
 
 - [x] 
     2. Adaugati un title corespunzător conținutului textului. Folosiți 4 taguri meta relevante pentru a specifica:
