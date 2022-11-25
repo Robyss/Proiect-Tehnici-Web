@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        <%- locals.title %>
+    </title>
+    <%- include("../fragments/head.ejs"); %>
+</head>
+<body>
+<header>
+    <!-- nav -->
+    <%- include("../fragments/header.ejs"); %>
+    <!-- end of nav -->
+</header>
+<!-- MAIN -->
+<main>
+    <section>
+        <div class="error-section">
+            <figure>
+                <img src="<%- locals.image %>" alt="error image">
+            </figure>
+            <h2>
+                <%- locals.description %>
+            </h2>
+            
+        </div>
+    </section>
+</main>
+<!-- FOOTER -->
+<footer>
+    <%- include("../fragments/footer.ejs"); %>
+</footer>
+
+<script src="resources/js/hamburger.js"></script>
+
+</body>
+</html>

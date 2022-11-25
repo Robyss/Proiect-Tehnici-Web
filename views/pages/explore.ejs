@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        <%- locals.title %>
+    </title>
+    <%- include("../fragments/head.ejs"); %>
+</head>
+<body>
+<header>
+    <!-- nav -->
+    <%- include("../fragments/header.ejs"); %>
+    <!-- end of nav -->
+</header>
+<!-- MAIN -->
+<main>
+    <section>
+        <p>Ceva frumos aici: <%- locals.ip%></p>
+
+        <h2>Page in progress.</h2>
+        <picture>
+            <img src="<%- locals.cale_img %>" alt="no-page-photo">
+        </picture>
+    </section>
+</main>
+<!-- FOOTER -->
+<footer>
+    <%- include("../fragments/footer.ejs"); %>
+</footer>
+
+<script src="resources/js/hamburger.js"></script>
+
+</body>
+</html>

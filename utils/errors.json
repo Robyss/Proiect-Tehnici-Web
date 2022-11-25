@@ -1,0 +1,14 @@
+{
+  "error403": {
+    "title": "Forbidden Access.",
+    "image": "/resources/images/error-403.jpg",
+    "header": "error-403",
+    "description": "<p>Looks like you're lost. </p><p>Try heading this way to get back on the slope. <a href='/index'>This way!</a></p>"
+  },
+  "error404": {
+    "title": "Page not found.",
+    "image": "/resources/images/no-snowboarding-skiing-ski-sign-260nw-1235237362.jpg",
+    "header": "error-404",
+    "description": "<p>You like going Off-Piste, don't you?</p><p>Then try this amazing slope. <a href='/index'>This way!</a></p>"
+  }
+}

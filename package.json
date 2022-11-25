@@ -1,0 +1,28 @@
+{
+  "name": "snowriders",
+  "version": "1.0.0",
+  "description": "Proiect Tehnici Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robyss/Proiect-Tehnici-Web.git"
+  },
+  "author": "Robert Sorete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robyss/Proiect-Tehnici-Web/issues"
+  },
+  "homepage": "https://github.com/Robyss/Proiect-Tehnici-Web#readme"
+}
